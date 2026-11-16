@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Smart Everyday Life shares simple, practical ideas for learning, wellbeing, technology and daily living.">
+<title>Smart Everyday Life | Simple Ideas for Better Living</title>
+<style>
+:root{--green:#236b52;--green2:#dcefe5;--cream:#fbfaf5;--ink:#24332d;--muted:#63736b;--white:#fff;--gold:#e7b85c}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65}
+header{background:rgba(251,250,245,.96);position:sticky;top:0;z-index:5;border-bottom:1px solid #e5e9e2}
+.nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand{font-weight:800;color:var(--green);font-size:1.15rem;letter-spacing:.2px}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;font-size:.9rem;padding:7px 10px;border-radius:20px}
+nav a:hover{background:var(--green2);color:var(--green)}
+.hero{background:linear-gradient(120deg,#e5f2e9,#f8f0dc);padding:76px 22px 68px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:30px}
+.eyebrow{color:var(--green);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.08;margin:12px 0 18px;color:#204d3d}
+.hero p{font-size:1.12rem;max-width:610px;color:#465a50}
+.hero-art{background:#fff;border-radius:28px;padding:28px;box-shadow:0 16px 40px #315b4218;text-align:center}
+.hero-art .sun{font-size:5rem}
+.hero-art strong{display:block;color:var(--green);font-size:1.25rem}
+.hero-art span{color:var(--muted);font-size:.92rem}
+.btn{display:inline-block;margin-top:15px;background:var(--green);color:#fff;text-decoration:none;padding:12px 20px;border-radius:24px;font-weight:700}
+main{max-width:1100px;margin:auto;padding:48px 22px}
+section{scroll-margin-top:90px;margin-bottom:58px}
+.section-head{max-width:720px;margin-bottom:24px}
+.section-head h2{font-size:2rem;color:var(--green);margin:0 0 8px}
+.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--white);border:1px solid #e8ece6;border-radius:18px;padding:22px;box-shadow:0 6px 20px #24332d08}
+.icon{font-size:2rem}
+.card h3{margin:8px 0;color:#285a46;font-size:1.12rem}
+.card p{margin:0;color:#59675f;font-size:.96rem}
+.feature{background:#edf4ed;border-radius:22px;padding:28px}
+.feature h3{margin-top:0;color:var(--green)}
+.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.tip{background:#fff;border-radius:14px;padding:18px;border-left:4px solid var(--gold)}
+.tip strong{display:block;margin-bottom:5px;color:#285a46}
+.about{background:#244f3e;color:#fff;border-radius:24px;padding:34px}
+.about h2{color:#fff}
+.about p{color:#e6f0e9;max-width:800px}
+footer{background:#183b2e;color:#eaf3ed;text-align:center;padding:25px 18px;font-size:.9rem}
+footer p{margin:4px}
+.small{font-size:.84rem;color:var(--muted)}
+@media(max-width:760px){.hero-inner{grid-template-columns:1fr}.hero{padding:54px 20px}.cards{grid-template-columns:1fr}.tips{grid-template-columns:1fr}.nav{justify-content:center}.brand{width:100%;text-align:center}nav{justify-content:center}main{padding:36px 18px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">🌿 SMART EVERYDAY LIFE</div>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#daily">Daily Life</a><a href="#health">Health</a>
+      <a href="#education">Education</a><a href="#technology">Technology</a><a href="#about">About Us</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="home">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Small ideas • Positive changes</div>
+      <h1>Make everyday life a little easier.</h1>
+      <p>Welcome to Smart Everyday Life — a simple place to discover useful ideas for your daily routine, wellbeing, education and technology. Small steps can help us build better habits and make informed choices.</p>
+      <a class="btn" href="#daily">Explore useful ideas ↓</a>
+    </div>
+    <div class="hero-art">
+      <div class="sun">☀️🌱📖</div>
+      <strong>Learn something useful every day</strong>
+      <span>Practical information for everyday living</span>
+    </div>
+  </div>
+</div>
+
+<main>
+<section id="daily">
+  <div class="section-head">
+    <h2>Daily Life Tips</h2>
+    <p>Simple habits can make our day more organised. You do not need to change everything at once; begin with one small step and practise it regularly.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><div class="icon">🗓️</div><h3>Plan Your Day</h3><p>Write down the most important things you need to do. A short to-do list can help you remember tasks and decide what needs attention first. Keep the plan realistic and leave some time for breaks.</p></article>
+    <article class="card"><div class="icon">🧹</div><h3>Keep Things Organised</h3><p>Put frequently used items in places that are easy to remember. Spend a few minutes arranging your study space or room. A tidy space can make it easier to find things and focus.</p></article>
+    <article class="card"><div class="icon">💰</div><h3>Spend Thoughtfully</h3><p>Before buying something, consider whether you need it and compare available options. Keeping a simple record of spending can help you understand where your money goes.</p></article>
+  </div>
+  <div class="feature" style="margin-top:18px">
+    <h3>A simple routine to try</h3>
+    <div class="tips">
+      <div class="tip"><strong>Start calmly</strong>Give yourself enough time to get ready for the day.</div>
+      <div class="tip"><strong>Choose priorities</strong>Identify two or three important tasks.</div>
+      <div class="tip"><strong>Take short breaks</strong>Pause between activities to rest and refocus.</div>
+      <div class="tip"><strong>Reflect in the evening</strong>Notice what went well and what you want to do tomorrow.</div>
+    </div>
+  </div>
+</section>
+
+<section id="health">
+  <div class="section-head">
+    <h2>Health & Wellbeing</h2>
+    <p>Wellbeing includes caring for both our body and mind. These general habits can support everyday health; they are not a substitute for advice from a qualified health professional.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><div class="icon">🥗</div><h3>Eat a Variety of Foods</h3><p>Try to include different kinds of foods in your meals, such as fruits, vegetables, grains and protein-rich foods. Eating a variety helps provide different nutrients.</p></article>
+    <article class="card"><div class="icon">💧</div><h3>Stay Hydrated</h3><p>Drink water regularly throughout the day, especially when the weather is hot or you are physically active. Carrying a reusable water bottle can be a helpful reminder.</p></article>
+    <article class="card"><div class="icon">🚶</div><h3>Move Your Body</h3><p>Walking, cycling, dancing, playing a sport or doing another activity you enjoy can help you stay active. Choose activities that feel comfortable and suit your ability.</p></article>
+    <article class="card"><div class="icon">😴</div><h3>Make Time for Sleep</h3><p>A regular sleep routine can help you feel more rested. Try to keep a consistent bedtime and make your sleeping space comfortable and quiet.</p></article>
+    <article class="card"><div class="icon">🧼</div><h3>Practise Personal Hygiene</h3><p>Wash your hands with soap, brush your teeth regularly and keep your clothes and surroundings clean. These everyday actions help reduce the spread of germs.</p></article>
+    <article class="card"><div class="icon">🌼</div><h3>Take Breaks</h3><p>Make room for relaxing activities, hobbies and time with people you trust. If a problem feels difficult to manage, consider talking to a trusted person or health professional.</p></article>
+  </div>
+</section>
+
+<section id="education">
+  <div class="section-head">
+    <h2>Education & Learning</h2>
+    <p>Learning does not happen only in a classroom. Reading, asking questions and practising new skills can help us grow throughout life.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><div class="icon">📚</div><h3>Study in Small Sessions</h3><p>Break a large topic into smaller parts. Study one part at a time, then take a short break. This can make a difficult subject feel more manageable.</p></article>
+    <article class="card"><div class="icon">✍️</div><h3>Make Your Own Notes</h3><p>After reading a lesson, write its main ideas in your own words. Use headings and examples. Creating your own notes helps you check what you have understood.</p></article>
+    <article class="card"><div class="icon">🗣️</div><h3>Practise Communication</h3><p>Read aloud, explain a topic to a friend or practise speaking about something you know. Regular practice can help you express your ideas more clearly.</p></article>
+    <article class="card"><div class="icon">🎯</div><h3>Set Learning Goals</h3><p>Choose a clear and achievable goal, such as learning five new words or completing one lesson. Small goals make progress easier to notice.</p></article>
+    <article class="card"><div class="icon">🔎</div><h3>Check Information</h3><p>When researching online, compare information from reliable sources. Check who published it, when it was updated and whether other trusted sources support it.</p></article>
+    <article class="card"><div class="icon">🌱</div><h3>Keep Trying</h3><p>It is normal to find some topics difficult at first. Ask questions, practise again and learn from mistakes instead of expecting yourself to understand everything immediately.</p></article>
+  </div>
+</section>
+
+<section id="technology">
+  <div class="section-head">
+    <h2>Technology in Everyday Life</h2>
+    <p>Digital tools can help us learn, communicate and complete tasks. Using them thoughtfully and safely is important.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><div class="icon">🔐</div><h3>Protect Your Accounts</h3><p>Use strong, unique passwords and turn on two-step verification when available. Never share passwords or one-time verification codes with other people.</p></article>
+    <article class="card"><div class="icon">📱</div><h3>Use Helpful Apps</h3><p>Calendar, notes and reminder apps can help organise tasks. Choose apps from trusted stores and review the permissions they request.</p></article>
+    <article class="card"><div class="icon">🧠</div><h3>Think Before You Share</h3><p>Pause before posting personal information, photos or your location. Remember that online posts can be copied or shared beyond the audience you intended.</p></article>
+    <article class="card"><div class="icon">📰</div><h3>Spot Misleading Information</h3><p>Do not believe every message or headline immediately. Check the original source, date and evidence before forwarding information.</p></article>
+    <article class="card"><div class="icon">🤝</div><h3>Be Respectful Online</h3><p>Communicate politely, respect other people's privacy and avoid sharing hurtful content. Report messages or behaviour that make you feel unsafe.</p></article>
+    <article class="card"><div class="icon">⏰</div><h3>Take Screen Breaks</h3><p>Balance screen-based activities with sleep, movement, hobbies and face-to-face conversations. Take breaks when your eyes or body feel tired.</p></article>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <h2>About Us</h2>
+    <p>Smart Everyday Life is an information website created to share simple and practical ideas that people can use in their everyday lives. It brings together topics such as daily routines, health and wellbeing, education and technology in one easy-to-read place.</p>
+    <p>Our aim is to make useful information easier to understand. We believe that small positive actions, when practised regularly, can help people learn new things, make thoughtful decisions and improve their daily routines.</p>
+    <p><strong>Our message:</strong> Learn a little, improve a little, every day.</p>
+  </div>
+</section>
+</main>
+<footer>
+  <p><strong>🌿 Smart Everyday Life</strong></p>
+  <p>Simple Ideas for Better Living</p>
+  <p class="small" style="color:#d2e3d8">An educational project sharing general information and everyday ideas.</p>
+</footer>
+</body>
+</html>
